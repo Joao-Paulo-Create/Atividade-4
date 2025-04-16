@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+#header{
+    display: flex;
+    height: 35px;
+    background: #F2F2F2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#header-cabecalho{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+#header-menu a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:13px;
+    font-weight: lighter;
+    transition: 5ms;
+}
+#header-menu a:hover{
+    color: #7c7c7c;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#container_menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+#menu{
+    display: flex;
+    margin-right: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-left: 30px;
+}
+#menu a{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
+    color: black;
+    height: 100%;
+    margin-top: auto;
+}
+#menu a:hover::after{
+    content: '';
+    background: black;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+#pesquisa{
+    display: flex;
+    align-items: center;
+    width: 178px;
+    height: 32px;
+    background: #f2f2f2cc;
+    border-radius: 55px;
+    padding: 6px;
+    gap: 15px;
+}
+#pesquisa input{
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%S;
+}
+#pesquisa input:focus{
+    border: none;
+    outline: none;
+}
+#pesquisa input::placeholder{
+    color: #7c7c7c;
+    font-weight: bolder;
+}
+#resto-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    height: 55px;
+}
+#corpo{
+    display: flex;
+    justify-content: center;
+    height: 696px;
+}
+#corpo1{
+    display: flex;
+    justify-content: center;
+}
+#button{
+display: flex;
+justify-content: center;
+gap: 16px;
+width: 100%;
+padding: 24px 0;
+}
+#button input{
+    padding: 16px 24px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: black;
+    height: 48px;
+    width: 144.03px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    cursor: pointer;
+}
+#button input:hover{
+    background: #4b4b4b;
+}
+#container-footer{
+    display: flex;
+    width: 100%;
+    background: #121212;
+    justify-content: space-evenly;
+    align-items: initial;
+    height: 540px;
+    padding: 40px 40px;
+    gap: 8px;
+}
+#footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#footer1 a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+#footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#footer2 a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;}
+#footer2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: white;
+    margin-top: 0;
+}
+#footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#footer3 a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;}
+#footer3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: white;
+    margin-top: 0;
+}
+#footer4{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#footer4 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: white;
+    margin-top: 0;
+}
+#icon{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+#icon a{
+    height: 24px;
+    width: 24px;
+}
+#icon i{
+    color: white;
+    height: 24px;
+    width: 24px;
+}
